@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, {Suspense} from 'react';
 import './App.css';
+import Routes from './routes'
 
-class App extends Component {
-  render() {
-    return <div className='App'>Hello World</div>;
-  }
+const App = () => {
+  return <Suspense fallback=''>
+         <Routes />
+      </Suspense>
 }
 
 export default App;
