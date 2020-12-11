@@ -3,7 +3,9 @@ import HomeActionTypes from './home.types'
 const INITIAL_STATE = {
     data: [],
     loading: false,
-    success: false
+    success: false,
+    item: null,
+    type: ''
   };
   
   const HomeReducer = (state = INITIAL_STATE, action) => {
@@ -27,6 +29,14 @@ const INITIAL_STATE = {
               loading: true,
               success: false
             };
+
+            case HomeActionTypes.GET_DETAIL:
+              return {
+                ...state,
+                item: action.payload.item,
+                type: action.payload.type
+
+              };
           
       default:
         return state;

@@ -19,3 +19,15 @@ export const getAllProperty = () => async (dispatch) => {
       })
   }
 }
+
+
+export const getDetail = (item, type) => async (dispatch) => {
+      dispatch({
+          type: HomeActionTypes.GET_DETAIL,
+          payload: {
+            item,
+            type
+          }
+      })
+ 
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { getDetail } from '../../redux/home/home.actions';
+import { useDispatch } from 'react-redux'
 import { ReactComponent as Love } from '../../assets/love.svg';
 import { ReactComponent as BathRoom } from '../../assets/bath-room.svg';
 import { ReactComponent as BadRoom } from '../../assets/bad-room.svg';
@@ -7,6 +9,7 @@ import { ReactComponent as Ground } from '../../assets/ground.svg';
 import './collection-item.styles.scss';
 
 const CollectionItem = ({ item }) => {
+  const dispatch = useDispatch()
   const { price, imageUrl } = item;
 
   return (
@@ -33,7 +36,9 @@ const CollectionItem = ({ item }) => {
         <span className='width-room'><Building className='img' /> 64m2</span>
         <span className='heigh-room'><Ground className='img' /> 25m2</span>
       </div>
-      <button className='custom-button'>
+      <button className='custom-button' onClick={() => {
+        dispatch(getDetail(item, 'detail'))
+      }}>
         Lihat Detail
         </button>
     </div>
