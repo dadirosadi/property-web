@@ -14,6 +14,19 @@ const INITIAL_STATE = {
           loading: true,
           success: false
         };
+        case HomeActionTypes.GET_ALL_PROPERTY_SUCCESS:
+          return {
+            ...state,
+            loading: true,
+            success: false,
+            data: action.payload
+          };
+          case HomeActionTypes.GET_ALL_PROPERTY_FAILED:
+            return {
+              ...state,
+              loading: true,
+              success: false
+            };
           
       default:
         return state;

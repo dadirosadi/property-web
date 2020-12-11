@@ -1,11 +1,16 @@
+import  HomeActionTypes  from './home.types';
+import {serviceGetAllProperty} from './home.services';
+
 export const getAllProperty = () => async (dispatch) => {
   try {
       dispatch({
           type: HomeActionTypes.GET_ALL_PROPERTY,
       })
+
+    const data = await serviceGetAllProperty()
     dispatch({
       type: HomeActionTypes.GET_ALL_PROPERTY_SUCCESS,
-      payload: result
+      payload: data
     })
   } catch (error) {
       dispatch({
