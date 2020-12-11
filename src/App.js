@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React, {Suspense} from 'react';
 import './App.css';
+import Routes from './routes'
+const Header = React.lazy(() => import('./components/header/header.component'));
 
-class App extends Component {
-  render() {
-    return <div className='App'>Hello World</div>;
-  }
+const App = () => {
+  return <Suspense fallback=''>
+         <Header />
+         <Routes />
+      </Suspense>
 }
 
 export default App;

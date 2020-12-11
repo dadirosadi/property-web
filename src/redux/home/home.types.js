@@ -1,0 +1,9 @@
+const HomeActionTypes = {
+     GET_ALL_PROPERTY: 'GET_ALL_PROPERTY',
+     GET_ALL_PROPERTY_SUCCESS: 'GET_ALL_PROPERTY_SUCCESS',
+     GET_ALL_PROPERTY_FAILED: 'GET_ALL_PROPERTY_FAILED',
+     GET_DETAIL: 'GET_DETAIL'
+  };
+  
+  export default HomeActionTypes;
+  
