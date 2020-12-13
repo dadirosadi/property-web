@@ -31,8 +31,8 @@ const CollectionItem = ({ item }) => {
       </div>
 
       <div className='room-info'>
-        <span className='bad-room'><BadRoom className='img' /> K.Tidur </span>
-        <span className='bath-room'><BathRoom className='img' /> K.Mandi</span>
+        <span className='bad-room'><BadRoom className='img' /> 2 K.Tidur </span>
+        <span className='bath-room'><BathRoom className='img' /> 2 K.Mandi</span>
         <span className='width-room'><Building className='img' /> 64m2</span>
         <span className='heigh-room'><Ground className='img' /> 25m2</span>
       </div>
