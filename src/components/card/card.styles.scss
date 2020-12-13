@@ -34,6 +34,14 @@
     cursor: pointer;
   }
 
+  .custom-button:hover {
+    background-color: rgb(8, 145, 191);
+  }
+
+  .custom-button:focus {
+    outline: none;
+  }
+
   .info-map {
     text-align: justify;
     text-justify: inter-word;
