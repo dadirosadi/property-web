@@ -35,6 +35,10 @@
     cursor: pointer;
   }
 
+  .custom-button:hover {
+    background-color: rgb(8, 145, 191);
+  }
+
   .label-info {
     display: flex;
     flex-direction: row;
