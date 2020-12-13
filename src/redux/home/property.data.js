@@ -7,19 +7,19 @@ const PROPERTY_DATA = [
       {
         id: 1,
         name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
         price: 217
       },
       {
         id: 2,
         name: 'Soreang',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
         price: 287
       },
       {
         id: 3,
         name: 'Dago',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
         price: 267
       },
     ]

@@ -1,7 +1,6 @@
 .homepage {
   display: flex;
   flex-direction: column;
-  align-items: center;
   
   .collection-page {
     display: flex;
@@ -21,7 +20,38 @@
       & .collection-item {
         margin-bottom: 30px;
       }
+    } 
+
+    
+    @media only screen and (max-width: 650px) {
+      .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+
+
     }
-  }
-  
+
+    @media only screen and (max-width: 500px) {
+      .items {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+      }
+    }
+    
+  }  
 }
+
+@media only screen and (max-width: 500px) {
+  .homepage {
+    align-items: center;
+  }
+
+}
+
+
+
+
+

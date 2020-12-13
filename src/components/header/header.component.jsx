@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Logo } from '../../assets/bad-room.svg';
+import { ReactComponent as Logo } from '../../assets/brand.svg';
 import Background from '../../assets/background.png';
 
 import './header.styles.scss';
