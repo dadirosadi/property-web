@@ -2,7 +2,8 @@ import React from 'react';
 import { Switch, Route, Redirect} from 'react-router-dom';
 
 import {
-    Home
+    Home,
+    NotFound
 } from '../pages';
 
 const routes =[
@@ -10,6 +11,10 @@ const routes =[
       path: '/',
       component: (props) => <Home category='newstories' {...props}/>,
       exact: true,
+      noLogin: true
+    },{
+      path: '/not-found',
+      component: NotFound,
       noLogin: true
     }
 ] 
