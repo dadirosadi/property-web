@@ -7,45 +7,45 @@ const PROPERTY_DATA = [
       {
         id: 1,
         name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
+        price: 217
       },
       {
         id: 2,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        name: 'Soreang',
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
+        price: 287
       },
       {
         id: 3,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        name: 'Dago',
+        imageUrl: 'https://images.unsplash.com/photo-1489936724440-afaf5a115ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=733&q=80',
         price: 267
       },
     ]
   },
  {
     id: 2,
-    title: 'House',
+    title: 'Rumah',
     routeName: 'house',
     items: [
       {
         id: 10,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        name: 'Dimensi',
+        imageUrl: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80',
+        price: 297
       },
       {
         id: 11,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        name: 'Cijerah',
+        imageUrl: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80',
         price: 267
       },
       {
         id: 12,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        name: 'Holis',
+        imageUrl: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80',
+        price: 237
       },
     ]
   }, {
@@ -56,19 +56,19 @@ const PROPERTY_DATA = [
       {
         id: 18,
         name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        imageUrl: 'https://images.unsplash.com/photo-1577133188553-ce18938175e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+        price: 277
       },
       {
         id: 19,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
-        price: 267
+        name: 'Cimindi',
+        imageUrl: 'https://images.unsplash.com/photo-1577133188553-ce18938175e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+        price: 297
       },
       {
         id: 20,
-        name: 'Margaasih',
-        imageUrl: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        name: 'Sukajadi',
+        imageUrl: 'https://images.unsplash.com/photo-1577133188553-ce18938175e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
         price: 267
       }
     ]
